@@ -1,0 +1,114 @@
+header {
+    padding: 4% 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed; 
+    padding: 2%;
+    top: 0;
+    left: 0;
+    width: 97%;
+}
+
+nav h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 4%;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.home {
+    margin: 0 1%;
+    margin-bottom: 500px;
+}
+
+.home p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 img {
+    width: 30%;
+}
+
+.col-1 p {
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+.col-2 img {
+    position: absolute;
+    top: 550px;
+    width: 30%;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-2 button {
+    height: 72.14px;
+    width: 260.96px;
+    background-color: white;
+    color: black;
+    font-size: 38.41px;
+    position: absolute;
+    left: 57%;
+    bottom: 4.5%;
+    font-weight: 700;
+    border-style: none;
+    z-index: 4;
+}
+
+.col-2 button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.home h1 {
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    font-style: bold;
+    font-family: 'Playfair Design';
+    font-size: 300px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1024px) {
+    .home h1 {
+        top: 17%;
+        left: 20%;
+        font-size: 180px;
+    }
+
+    .home .col-2 button {
+        bottom: 40%;
+    }
+}

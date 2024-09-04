@@ -1,0 +1,40 @@
+.portfolio {
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+.portfolio h1 {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Playfair Design';
+    font-size: 81.31px;
+    font-weight: 100;
+}
+
+.images {
+    display: flex;
+
+    justify-content: center;
+    align-items: start;
+}
+
+.images .images-col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.images .images-col-1 img {
+    margin: 25px;
+}
+
+.images .images-col-2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.images .images-col-2 img {
+    margin: 25px;
+}

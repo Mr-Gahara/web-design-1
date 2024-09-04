@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>creative design</title>
+    
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/style-home.css">
+    <link rel="stylesheet" href="style/style-portfolio.css">
+    <link rel="stylesheet" href="style/style-about.css">
+    <link rel="stylesheet" href="style/style-testimonials.css">
+    <link rel="stylesheet" href="style/style-contact.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h6>LOGO</h6>
+
+            <ul>
+                <li><a onclick="scrollToHome()">HOME</a></li>
+                <li><a onclick="scrollToPortfolio()">PORTFOLIO</a></li>
+                <li><a onclick="scrollToAbout()">ABOUT</a></li>
+                <li><a onclick="scrollToContact()">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home-section">
+            <div class="col-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> 
+                   elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <img src="image/Rectangle 19.svg" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="image/Rectangle 18.svg" alt="">
+                <button>Get a Quote</button>
+            </div>
+
+            <h1>Creative <br> Design</h1>
+        </section>
+
+        <section class="portfolio" id="portfolio-section">
+            <h1>Portfolio</h1>
+
+            <div class="images">
+                <div class="images-col-1">
+                    <img src="image/Rectangle 1.png" alt="">
+                    <img src="image/Rectangle 4.png" alt="">
+                    <img src="image/Rectangle 5.png" alt="">
+                </div>
+
+                <div class="images-col-2">
+                    <img src="image/Rectangle 2.png" alt="">
+                    <img src="image/Rectangle 3.png" alt="">
+                    <img src="image/Rectangle 6.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about-section">
+            <h1>About</h1>
+
+            <div class="desc">
+                <p>We create stunning Lorem ipsum <br>
+                   dolor sit amet, consectetur <br>
+                   adipiscing elit.We create <br>
+                   stunning Lorem ipsum dolor sit <br>
+                   amet, consectetur adipiscing elit. <br>
+                   <br>
+                   After 10 years of experience <br>
+                   Lorem ipsum dolor sit amet, <br>
+                   consectetur adipiscing elit.We <br>
+                   create stunning Lorem ipsum <br>
+                   dolor sit amet, consectetur <br>
+                   adipiscing elit.We create <br>
+                   stunning Lorem ipsum dolor sit <br>
+                   amet, consectetur adipiscing elit.
+                </p>
+
+                <img src="image/Rectangle 7.png" alt="">
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h1>Testimonials</h1>
+
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing 
+               elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur 
+               adipiscing elit.Lorem ipsum dolor sit amet, consectetur 
+               adipiscing elit.
+            </h3>
+
+            <div class="main-col">
+                <div class="testimonials-col-1">
+                    <div class="review-1">
+                        <img src="image/Rectangle 31.png" alt="">
+
+                        <div class="review-text">
+                            <h2>“Amazing Team with Lorem Ipsum”</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                               adipiscing elit.Lorem ipsum dolor sit 
+                               amet, consectetur adipiscing elit. Lorem 
+                               ipsum dolor sit amet,
+                            </p>
+
+                            <a href="">See full review &#10141;</a>
+                        </div>
+                    </div>
+
+                    <div class="review-2">
+                        <img src="image/Rectangle 26.png" alt="">
+
+                        <div class="review-text">
+                            <h2>“Big Dreams for lorem ipsum”</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                               adipiscing elit.Lorem ipsum dolor sit 
+                               amet, consectetur adipiscing elit. Lorem 
+                               ipsum dolor sit amet,
+                            </p>
+
+                            <a href="">See full review &#10141;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-col-2">
+                    <div class="review-3">
+                        <img src="image/Rectangle 28.png" alt="">
+
+                        <div class="review-text">
+                            <h2>“Good Dreams for lorem ipsum”</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                               adipiscing elit.Lorem ipsum dolor sit 
+                               amet, consectetur adipiscing elit. Lorem 
+                               ipsum dolor sit amet,
+                            </p>
+
+                            <a href="">See full review &#10141;</a>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="button">
+                <button>See All Reviews</button>
+            </div>
+        </section>
+
+        <section class="contact" id="contact-section">
+            <h1>Contact</h1>
+            <div class="main-field">
+                <div class="field-1">
+                    <h2>Name</h2>
+                    <input type="text" class="name">
+                </div>
+
+                <div class="field-2">
+                    <h2>Email</h2>
+                    <input type="text" class="email">
+                </div>
+
+                <div class="field-3">
+                    <h2>Message</h2>
+                    <input type="text" class="message" placeholder="Enter your message here...">
+                </div>
+            </div>
+
+            <div class="button-contact">
+                <button>Send</button>
+            </div>
+        </section>   
+    </main>
+
+    <footer>
+        <h4>2024 Company</h4>
+        <div class="terms-privacy">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms and Conditions</a>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>

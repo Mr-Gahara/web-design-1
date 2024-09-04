@@ -1,0 +1,26 @@
+.about {
+    margin-bottom: 8%;
+    padding: 0 8%;
+}
+.about h1 {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Playfair Design';
+    font-size: 81.31px;
+    font-weight: 100;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+
+.desc p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
